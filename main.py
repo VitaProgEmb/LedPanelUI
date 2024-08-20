@@ -58,6 +58,8 @@ def main():
     app = QApplication(sys.argv)
     w = Window()
     
+
+    
     w.show()
     app.exec()
 
