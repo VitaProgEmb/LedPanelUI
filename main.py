@@ -5,7 +5,7 @@ from PySide6.QtGui import *
 from PySide6.QtCore import *
 from PySide6.QtWidgets import *
 from PySide6.QtWidgets import QWidget
-from Forms.main_ui import Ui_Form
+from Forms.Main_ui import Ui_Form
 from PySide6.QtSerialPort import *
 import sys
 
@@ -59,7 +59,6 @@ def main():
     w = Window()
     
 
-    
     w.show()
     app.exec()
 
