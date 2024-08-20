@@ -20,6 +20,7 @@ from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QGroupBox,
     QPushButton, QSizePolicy, QSlider, QSpacerItem,
     QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget)
 
+
 class Ui_Form(object):
     def setupUi(self, Form):
         if not Form.objectName():
