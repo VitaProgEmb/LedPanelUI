@@ -23,6 +23,7 @@ class Window(QWidget,Ui_Form):
         for i in ports:
             self.ui.portsCombo.addItem(i.portName())
             print(i.portName())
+            
         self.ui.speedSld.setMaximum(15)
         self.ui.holdSld.setMaximum(15)
         self.ui.connectBtn.clicked.connect(self.connect)
